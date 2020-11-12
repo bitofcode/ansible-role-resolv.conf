@@ -1,0 +1,8 @@
+
+domain {{ boc_domain }}
+search {{ boc_search }}
+
+{% for nameserver in boc_nameservers %}
+nameserver {{ nameserver }}
+{% endfor %}
+

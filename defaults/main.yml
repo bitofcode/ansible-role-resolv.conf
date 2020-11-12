@@ -1,0 +1,8 @@
+---
+# defaults file for bitofcode.resolf.conf
+boc_domain: "localhost"
+boc_search: "localhost"
+
+boc_nameservers:
+  - "8.8.8.8"
+  - "8.8.4.4"

@@ -1,0 +1,6 @@
+---
+# handlers file for bitofcode.resolf.conf
+- name: reload NetworkManager
+  service:
+    name: NetworkManager
+    state: reloaded
