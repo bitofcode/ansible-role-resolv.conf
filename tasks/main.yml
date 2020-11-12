@@ -19,7 +19,7 @@
 
 - name: deploy resolv.conf template
   template:
-    src: roles/resolv.conf/templates/resolv.conf.j2
+    src: templates/resolv.conf.j2
     dest: /etc/resolv.conf
     owner: root
     group: root
